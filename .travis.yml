@@ -11,6 +11,9 @@ sudo: required
 # Instalação de Módulos que são necessários para a Aplicação.
 install:
   - pip install flask
+  - pip install SQLAlchemy
+  - pip install flask-sqlalchemy
+  - pip install Flask-WTF
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
